@@ -44,7 +44,7 @@ sudo mv sonarqube-7.8 sonarqube
 ## Grant permissions for sonar user to start and manage sonarQube
 ```sh
 sudo chown -R sonar:sonar /opt/sonarqube/
-sudo chmod -R 775 /opt/sonarqube/
+sudo chmod -R 775 /opt/sonarqube/bin/sonar.sh
 # start sonarQube server
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh start 
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh status
